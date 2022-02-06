@@ -1,0 +1,43 @@
+.User-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 964px;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-top: 30px;
+}
+
+.User {
+  padding: 2rem;
+}
+
+
+.User-infro {
+  display: flex;
+  flex-direction: column;
+}
+
+.User-infro span {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.User-infro small {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.User-img {
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.btn {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
